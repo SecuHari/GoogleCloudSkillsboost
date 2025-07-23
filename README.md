@@ -1,5 +1,55 @@
-Overview
-TensorFlow is an open source, powerful, portable machine learning (ML) library developed by Google that can work with very large datasets. In this lab, you will create and train a computer vision model to recognize different items of clothing using TensorFlow Vertex AI Workbench.
+# 🧠 Introduction to Computer Vision with TensorFlow
 
-Introduction to TensorFlow
-TensorFlow provides a computational framework for building ML models. TensorFlow provides a variety of different toolkits that allow you to construct models at your preferred level of abstraction. In this lab you'll use tf.keras, a high-level API to build and train a neural network for classifying images in TensorFlow.
+This project is based on the **"Introduction to Computer Vision with TensorFlow"** lab done using **Google Cloud Vertex AI Workbench**.
+
+Created by **SecuHari** (Hareesh Kumar)  
+🔗 [LinkedIn](https://www.linkedin.com/in/hareesh-kumar-02045a339)
+
+---
+
+## 📌 Overview
+
+In this lab, I trained a computer vision model using **TensorFlow** and **Fashion MNIST** dataset to recognize different types of clothing items like shirts, shoes, trousers, etc.
+
+We built, compiled, trained, evaluated, and saved a neural network model using `tf.keras`.
+
+---
+
+## 🎯 Objectives
+
+✅ Load and preprocess image dataset  
+✅ Design and compile a neural network model  
+✅ Train the model for multiple epochs  
+✅ Evaluate accuracy on test (unseen) data  
+✅ Save and load the trained model  
+✅ Use callbacks to stop early if accuracy is high  
+✅ Experiment with layers and neurons
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.10+
+- TensorFlow 2.x
+- TensorFlow Datasets (tfds)
+- Google Cloud Vertex AI Workbench
+- Numpy
+- Google Cloud Logging (for logs)
+
+---
+
+## 🧠 Dataset
+
+> Fashion MNIST — 70,000 grayscale images of 10 clothing categories  
+- 60,000 for training  
+- 10,000 for testing  
+- Image shape: 28x28 pixels
+
+---
+
+## 🛠️ How to Run
+
+1. Clone this repo  
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
